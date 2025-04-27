@@ -958,10 +958,6 @@
     ];
 
     // Initialize map with enhanced features
-    const map = L.map('mapid').setView([51.5074, -0.1278], 12);
-    let currentMapLayer = 'default';
-    let trafficLayer, tubeLayer, crowdsLayer, restaurantsLayer, hotelsLayer;
-
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
